@@ -144,16 +144,8 @@
         <asp:HiddenField ID="hdnUserName" runat="server" />
     </form>
     <script type="text/javascript">
-        window.setTimeout("ShowTime()", 1000);
-        function scrlsts() {
-            scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
-        }
-        function ShowTime() {
-            var dt = new Date();
-            var shortdt = dt.format('dddd, dd/MMM/yyyy');
-            document.getElementById("lblTime").innerHTML = dt.toLocaleTimeString();
-            window.setTimeout("ShowTime()", 1000);
-        }
+        
+        
     </script>
     <div id="dialog-message"></div>
 
