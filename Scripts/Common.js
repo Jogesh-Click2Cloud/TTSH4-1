@@ -2296,7 +2296,7 @@ function logout() {
 function showLoading() {
 
     $.blockUI({
-        message: '<table><tr><td>' + '<img src="images/ajax-loader (2).gif" style="width:auto;"/><div><h2 style="color:white;font-size:16px;margin-top:3px;">Please Wait...</h2></div></td></tr></table>',
+        message: '<table><tr><td>' + '<img src="../Images/ajax-loader (2).gif" style="width:auto;"/><div><h2 style="color:white;font-size:16px;margin-top:3px;">Please Wait...</h2></div></td></tr></table>',
         fadeIn: 0,
         css: {
             border: '1px solid black', //border: '1px solid #fbb600',
